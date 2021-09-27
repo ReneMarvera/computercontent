@@ -1,0 +1,15 @@
+
+.eh_wt_info_div {
+    background: #d9edf7;
+    border: solid 1px #bce8f1;
+    padding-left: 11px;
+    width: 68%;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+.eh_wt_notice_bar_style{
+    margin-top: 0px; 
+    margin-left: 23px; 
+    list-style: disc;
+
+}

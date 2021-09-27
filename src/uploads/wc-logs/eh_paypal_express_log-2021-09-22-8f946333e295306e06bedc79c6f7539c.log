@@ -1,0 +1,52 @@
+2021-09-22T06:17:59+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://computerhouse.xyz/wc-api/Eh_PayPal_Express_Payment/?c=express_details&express=true&p=https://computerhouse.xyz/checkout/
+    [CANCELURL] => https://computerhouse.xyz/cart/?cancel_order=true&order=wc_order_LjMPaSyVP34Tk&order_id=3456&redirect=https%3A%2F%2Fcomputerhouse.xyz%2Fcheckout%2F&_wpnonce=286d7ab386&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => Computer House
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => ASUS Prime H410M LGA1200
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 119
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://computerhouse.xyz/producto/asus-prime-g410m-lga1200/
+    [PAYMENTREQUEST_0_AMT] => 124
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_ITEMAMT] => 119
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 5
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 217
+    [PAYMENTREQUEST_0_SHIPTONAME] =>   
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => Calle 1
+    [PAYMENTREQUEST_0_SHIPTOCITY] => San Salvador
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => San Salvador
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => SV
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => bl16005@ues.edu.sv
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 3456
+)
+
+2021-09-22T06:17:59+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2021-09-22T06:17:59Z
+    [CORRELATIONID] => 91dd45ec3a79e
+    [ACK] => Failure
+    [BUILD] => 55938276
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
